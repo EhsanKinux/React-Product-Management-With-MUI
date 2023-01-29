@@ -1,10 +1,12 @@
 
-import './App.css';
+import {Container} from "@mui/material";
+import Header from "./components/header/Header";
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <Container sx={{ marginTop: "2rem"}}>
+      <Header/>
+    </Container>
   );
 }
 
